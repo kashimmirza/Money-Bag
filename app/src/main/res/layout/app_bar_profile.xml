@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backone"
+    android:fitsSystemWindows="true"
+    tools:context="com.sunking.it.moneybag.Profile">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="?attr/actionBarSize">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:paddingTop="10dp"
+                    android:text="Large Text"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/textViewUsername"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffa500"
+                    android:text="Current Balance"
+                    android:paddingBottom="5dp"/>
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text="1200Tk"
+                    android:textStyle="bold"
+                    android:textColor="#ffa500"
+                    android:id="@+id/et_current_balance"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textStyle="bold"
+                    android:textColor="#ffa500"
+                    android:text="Recent Receive"
+                    android:paddingBottom="5dp"/>
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginLeft="10dp"
+                    android:text="1200Tk"
+                    android:textStyle="bold"
+                    android:textColor="#ffa500"
+                    android:id="@+id/et_recent_receive"
+                    android:paddingBottom="5dp"/>
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textStyle="bold"
+                    android:textColor="#ffa500"
+                    android:text="Recent Cash-Out"
+                    android:paddingBottom="5dp"/>
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textStyle="bold"
+                    android:textColor="#ffa500"
+                    android:text="1200Tk"
+                    android:id="@+id/et_recent_cashout"
+                    android:paddingBottom="5dp"/>
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textStyle="bold"
+                    android:textColor="#ffa500"
+                    android:text="Recent Recharge"
+                    android:paddingBottom="5dp"/>
+                <TextView
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textStyle="bold"
+                    android:textColor="#ffa500"
+                    android:text="1200Tk"
+                    android:id="@+id/et_recent_recharge"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+        </ScrollView>
+    </FrameLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

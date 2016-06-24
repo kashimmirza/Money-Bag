@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@mipmap/backone"
+    android:padding="40dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sunking.it.moneybag.AccountCatagory"
+    tools:showIn="@layout/activity_account_catagory">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupAccount"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFF"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"
+        android:orientation="vertical"
+        android:onClick="AccountTypeClicked"
+        >
+        <RadioButton
+            android:id="@+id/personalAccount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:paddingLeft="0dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#999"
+            android:onClick="AccountTypeClicked"/>
+
+        <RadioButton
+            android:id="@+id/Trade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:paddingLeft="0dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#999"
+            android:text="Trade"
+            android:onClick="AccountTypeClicked"/>
+
+        <RadioButton
+            android:id="@+id/Change_Maker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:paddingLeft="0dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#999"
+            android:text="Change Maker"
+            android:onClick="AccountTypeClicked"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_continue"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Continue"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/selector_xml_btn_yellow"
+        android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+</ScrollView>

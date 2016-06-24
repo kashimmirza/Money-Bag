@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/backone"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context="com.sunking.it.moneybag.CashOutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:text="Cash Out"
+        android:textSize="28sp"
+        android:paddingBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Maker's ID (Receiver)"
+        android:textColor="#FFF"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:padding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:inputType="number"
+        android:id="@+id/et_change_maker_ID"
+        android:padding="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Amount"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:padding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="#FFF"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:id="@+id/et_cash_out_amount"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_cash_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Cash Out"
+        android:padding="8dp"
+        android:background="@drawable/selector_xml_btn_yellow"
+        android:ems="10"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/backone"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context="com.sunking.it.moneybag.ChangePinFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Change PIN"
+        android:textColor="#FFF"
+        android:textSize="28dp"
+        android:paddingBottom="20dp"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Old PIN"
+        android:textColor="#FFF"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:inputType="number"
+        android:id="@+id/et_old_PIN"
+        android:padding="10dp"
+
+        />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New PIN"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:ems="10"
+        android:padding="10dp"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:inputType="number"
+        android:id="@+id/et_new_PIN"
+        android:padding="10dp"
+
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm PIN"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:padding="10dp"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:inputType="number"
+        android:id="@+id/et_confirm_PIN"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/change_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change PIN"
+        android:ems="10"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@drawable/selector_xml_btn_yellow"
+        android:layout_centerVertical = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>

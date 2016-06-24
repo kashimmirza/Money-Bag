@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_UserProfile"
+            android:icon="@drawable/ic_wc_black_24dp"
+            android:title="User Profile" />
+        <item
+            android:id="@+id/nav_SendMoney"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send Money" />
+        <item
+            android:id="@+id/nav_ReceiveMoney"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Receive Money" />
+        <item
+            android:id="@+id/nav_TransactionHistory"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Transaction History" />
+        <item
+            android:id="@+id/nav_EditProfile"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/nav_ChangePassword"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_ChangePin"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="Change Pin" />
+        <item
+            android:id="@+id/nav_CashOut"
+            android:icon="@drawable/ic_touch_app_black_24dp"
+            android:title="Cash Out" />
+        <item
+            android:id="@+id/nav_LogOut"
+            android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+            android:title="Log Out" />
+    </group>
+
+
+
+</menu>

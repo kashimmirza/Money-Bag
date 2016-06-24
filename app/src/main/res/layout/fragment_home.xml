@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:background="@mipmap/backone"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context="com.sunking.it.moneybag.HomeFragment">
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffa500"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/textViewUsername"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffa500"
+                android:text="Current Balance"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:textStyle="bold"
+                android:textColor="#ffa500"
+                android:text="1200Tk"
+                android:id="@+id/et_current_balance"
+                android:paddingBottom="10dp"/>
+
+
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textStyle="bold"
+                android:textColor="#ffa500"
+                android:text="Recent Receive"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#ffa500"
+                android:text="1200Tk"
+                android:id="@+id/et_recent_receive"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#ffa500"
+                android:text="Recent Cash-Out"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textStyle="bold"
+                android:textColor="#ffa500"
+                android:text="1200Tk"
+                android:id="@+id/et_recent_cashout"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textStyle="bold"
+                android:textColor="#ffa500"
+                android:text="Recent Recharge"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textStyle="bold"
+                android:textColor="#ffa500"
+                android:text="1200Tk"
+                android:id="@+id/et_recent_recharge"
+                android:paddingBottom="10dp"/>
+        </LinearLayout>
+
+</ScrollView>
+

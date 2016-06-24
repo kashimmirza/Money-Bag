@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/backone"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context="com.sunking.it.moneybag.SendMoneyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Send Money"
+        android:textColor="#FFF"
+        android:textSize="28sp"
+        android:paddingBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receiver's ID"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:ems="10"
+        android:padding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:inputType="number"
+        android:id="@+id/et_receiver_ID"
+        android:padding="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:ems="10"
+        android:padding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFF"
+        android:id="@+id/et_send_amount"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_send_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Money"
+        android:background="@drawable/selector_xml_btn_yellow"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:ems="10"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
